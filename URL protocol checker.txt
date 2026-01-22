@@ -1,0 +1,17 @@
+include <stdio.h>
+#include<string.h>
+int main() {
+    char URL[100];
+    scanf("%s",URL);
+
+    if(strncmp(URL,"http : //",7)==0|| strncmp(URL,"http : //",8)==00){
+        printf("valid");
+
+    }
+    else {
+        printf("Invalid");
+    }
+    
+    
+    return 0;
+}
